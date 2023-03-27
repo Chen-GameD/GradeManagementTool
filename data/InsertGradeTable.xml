@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<MyGradeTable id="1">
+    <Title>
+        <Name>Name</Name>
+        <Chinese>Chinese</Chinese>
+        <English>English</English>
+        <Math>Math</Math>
+    </Title>
+    <Datas>
+        <Data>
+            <Name>陈一</Name>
+            <Chinese>78</Chinese>
+            <English>25</English>
+            <Math>62</Math>
+        </Data>
+        <Data>
+            <Name>陈二</Name>
+            <Chinese>78</Chinese>
+            <English>25</English>
+            <Math>62</Math>
+        </Data>
+        <Data>
+            <Name>陈三</Name>
+            <Chinese>78</Chinese>
+            <English>25</English>
+            <Math>62</Math>
+        </Data>
+    </Datas>
+</MyGradeTable>

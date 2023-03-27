@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="rapidcsv">
+      <UniqueIdentifier>{f3f5cac4-8805-426e-8f57-1efa41240f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmdline">
+      <UniqueIdentifier>{91544bcb-450b-4a93-931f-064a8ee9fdcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml2">
+      <UniqueIdentifier>{91d0132e-3054-4e0b-bca6-78d1573811ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{263addc5-d130-45b2-9155-e9523fc82e1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GradeManagementTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GradeManagementToolHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GradeTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2\tinyxml2.cpp">
+      <Filter>tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2\XMLHelper.cpp">
+      <Filter>tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="rapidcsv\CSVHelper.cpp">
+      <Filter>rapidcsv</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\tool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GradeManagementToolHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GradeTable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidcsv\rapidcsv.h">
+      <Filter>rapidcsv</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdline\cmdline.h">
+      <Filter>cmdline</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2\tinyxml2.h">
+      <Filter>tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2\XMLHelper.h">
+      <Filter>tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidcsv\CSVHelper.h">
+      <Filter>rapidcsv</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\tool.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
